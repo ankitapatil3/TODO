@@ -1,0 +1,39 @@
+.tla{
+   
+    width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 2px solid darkgray;
+}
+.tlal{
+    background-color: aquamarine;
+    text-decoration: line-through;
+}
+.tldiv{
+   /* border: 2px solid red; */
+    display: flex;
+    gap: 15px;
+}
+.cp{
+    cursor: pointer;
+}
+.tlmain{
+    margin-top: 25px;
+}
+.btnblue{
+    background-color: cornflowerblue;
+    padding: 15px;
+ border-radius: 10px;
+ outline: none;
+ border: 2px solid transparent;
+ color: white;
+ font-size: 18px;
+ margin-top: 20px;
+}
+.btnblue:hover{
+    outline: none;
+   border-color: darkblue;
+   color: dodgerblue;
+   background-color: white;
+}
